@@ -23,8 +23,7 @@ public Graphe() {
 
 public void extractFile (int debut, int fin){
 	try{
-	
-                int h;
+	        int g=3;
 		int i=1;
 		InputStream flux=new FileInputStream("E:/map.txt"); 
 		InputStreamReader lecture=new InputStreamReader(flux);
